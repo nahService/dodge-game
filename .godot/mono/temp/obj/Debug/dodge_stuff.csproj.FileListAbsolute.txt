@@ -1,0 +1,17 @@
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/dodge_stuff.deps.json
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/dodge_stuff.runtimeconfig.json
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/dodge_stuff.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/dodge_stuff.pdb
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.csproj.AssemblyReference.cache
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.GeneratedMSBuildEditorConfig.editorconfig
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.AssemblyInfoInputs.cache
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.AssemblyInfo.cs
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.csproj.CoreCompileInputs.cache
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_st.3441AE85.Up2Date
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/refint/dodge_stuff.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.pdb
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.genruntimeconfig.cache
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/ref/dodge_stuff.dll

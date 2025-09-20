@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "s9a5usiWFww=",
+  "success": true,
+  "projectFilePath": "/home/karls/Godot_Projects/dodge-stuff/dodge_stuff.csproj",
+  "expectedPackageFiles": [
+    "/home/karls/.nuget/packages/godot.sourcegenerators/4.5.0/godot.sourcegenerators.4.5.0.nupkg.sha512",
+    "/home/karls/.nuget/packages/godotsharp/4.5.0/godotsharp.4.5.0.nupkg.sha512",
+    "/home/karls/.nuget/packages/godotsharpeditor/4.5.0/godotsharpeditor.4.5.0.nupkg.sha512",
+    "/home/karls/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
