@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://cnk0u805sv203"]
+
+[ext_resource type="Script" uid="uid://bbv4u638r5qyk" path="res://scenes/Enemy/EnemyNode.cs" id="1_j3ohf"]
+[ext_resource type="Texture2D" uid="uid://cf655qsxlmccl" path="res://Assets/labubu.svg" id="2_ext56"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2e27h"]
+radius = 15.0
+height = 56.0
+
+[node name="EnemyNode" type="Area2D" node_paths=PackedStringArray("ScreenNotifier2D")]
+script = ExtResource("1_j3ohf")
+ScreenNotifier2D = NodePath("VisibleOnScreenNotifier2D")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_2e27h")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_ext56")
+metadata/_edit_lock_ = true
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]

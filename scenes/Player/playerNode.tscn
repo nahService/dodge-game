@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://coy03v6nqrl13"]
+
+[ext_resource type="Script" uid="uid://cpcbd6eve8h0e" path="res://scenes/Player/PlayerNode.cs" id="1_iarg4"]
+[ext_resource type="Texture2D" uid="uid://b68j3g82gw5e5" path="res://Assets/caleb.png" id="2_iarg4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_a25me"]
+radius = 20.0
+
+[node name="PlayerNode" type="Area2D"]
+position = Vector2(352, 206)
+script = ExtResource("1_iarg4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("CircleShape2D_a25me")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("2_iarg4")
+metadata/_edit_lock_ = true

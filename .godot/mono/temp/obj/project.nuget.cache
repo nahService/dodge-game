@@ -1,12 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "s9a5usiWFww=",
+  "dgSpecHash": "uMmGhBmHQR4=",
   "success": true,
   "projectFilePath": "/home/karls/Godot_Projects/dodge-stuff/dodge_stuff.csproj",
   "expectedPackageFiles": [
+    "/home/karls/.nuget/packages/arch/2.1.0-beta/arch.2.1.0-beta.nupkg.sha512",
+    "/home/karls/.nuget/packages/arch.lowlevel/1.1.5/arch.lowlevel.1.1.5.nupkg.sha512",
+    "/home/karls/.nuget/packages/collections.pooled/2.0.0-preview.27/collections.pooled.2.0.0-preview.27.nupkg.sha512",
+    "/home/karls/.nuget/packages/communitytoolkit.highperformance/8.2.2/communitytoolkit.highperformance.8.2.2.nupkg.sha512",
     "/home/karls/.nuget/packages/godot.sourcegenerators/4.5.0/godot.sourcegenerators.4.5.0.nupkg.sha512",
     "/home/karls/.nuget/packages/godotsharp/4.5.0/godotsharp.4.5.0.nupkg.sha512",
     "/home/karls/.nuget/packages/godotsharpeditor/4.5.0/godotsharpeditor.4.5.0.nupkg.sha512",
+    "/home/karls/.nuget/packages/microsoft.extensions.objectpool/7.0.0/microsoft.extensions.objectpool.7.0.0.nupkg.sha512",
+    "/home/karls/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/karls/.nuget/packages/zeroallocjobscheduler/1.1.2/zeroallocjobscheduler.1.1.2.nupkg.sha512",
     "/home/karls/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
   ],
   "logs": []

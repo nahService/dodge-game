@@ -15,3 +15,10 @@
 /home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.pdb
 /home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.genruntimeconfig.cache
 /home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/ref/dodge_stuff.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/obj/Debug/dodge_stuff.sourcelink.json
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/Arch.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/Arch.LowLevel.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/Collections.Pooled.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/CommunityToolkit.HighPerformance.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/Microsoft.Extensions.ObjectPool.dll
+/home/karls/Godot_Projects/dodge-stuff/.godot/mono/temp/bin/Debug/Schedulers.dll

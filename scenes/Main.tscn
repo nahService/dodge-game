@@ -2,8 +2,10 @@
 
 [ext_resource type="Script" uid="uid://kcnl46k4417n" path="res://scenes/Main.cs" id="1_elqb8"]
 
-[node name="Main" type="Node"]
+[node name="Main" type="Node" node_paths=PackedStringArray("buttonExit", "buttonNewGame")]
 script = ExtResource("1_elqb8")
+buttonExit = NodePath("main_menu/CenterContainer/MarginContainer/VBoxContainer/buttonExit")
+buttonNewGame = NodePath("main_menu/CenterContainer/MarginContainer/VBoxContainer/buttonNewGame")
 
 [node name="main_menu" type="Control" parent="."]
 layout_mode = 3
@@ -12,6 +14,15 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="main_menu"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.039215688, 0.8039216, 1, 1)
 
 [node name="CenterContainer" type="CenterContainer" parent="main_menu"]
 layout_mode = 1
@@ -27,10 +38,10 @@ layout_mode = 2
 [node name="VBoxContainer" type="VBoxContainer" parent="main_menu/CenterContainer/MarginContainer"]
 layout_mode = 2
 
-[node name="Button" type="Button" parent="main_menu/CenterContainer/MarginContainer/VBoxContainer"]
+[node name="buttonNewGame" type="Button" parent="main_menu/CenterContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "New Game"
 
-[node name="Button2" type="Button" parent="main_menu/CenterContainer/MarginContainer/VBoxContainer"]
+[node name="buttonExit" type="Button" parent="main_menu/CenterContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Exit"

@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=3 uid="uid://dxoyv0cfo2rby"]
+
+[ext_resource type="Script" uid="uid://cm3tmeftqxsc0" path="res://scenes/GameScene/PlayScene.cs" id="1_yr8qf"]
+[ext_resource type="PackedScene" uid="uid://coy03v6nqrl13" path="res://scenes/Player/playerNode.tscn" id="2_3m41s"]
+
+[sub_resource type="Curve2D" id="Curve2D_3m41s"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 9, 6, 0, 0, 0, 0, 1143, 8, 0, 0, 0, 0, 1143, 639, 0, 0, 0, 0, 8, 639, 0, 0, 0, 0, 9, 5, 0, 0, 0, 0, 9, 6)
+}
+point_count = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3m41s"]
+bg_color = Color(0.039215688, 0.03529412, 0.03137255, 1)
+
+[node name="PlayScene" type="Node" node_paths=PackedStringArray("PlayerNode2d", "timer", "MobSpawnLocation", "DeadLabel")]
+script = ExtResource("1_yr8qf")
+PlayerNode2d = NodePath("PlayerNode")
+timer = NodePath("Timer")
+MobSpawnLocation = NodePath("Path2D/PathFollow2D")
+DeadLabel = NodePath("Control")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = -1.0
+offset_right = -1.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.84313726, 0.8509804, 0.69411767, 1)
+
+[node name="PlayerNode" parent="." instance=ExtResource("2_3m41s")]
+position = Vector2(426, 201)
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_3m41s")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+position = Vector2(9, 6)
+rotation = 0.0017636666
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="Control" type="PanelContainer" parent="."]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3m41s")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/normal_font_size = 64
+text = "Bankrupted"
+fit_content = true
+autowrap_mode = 0

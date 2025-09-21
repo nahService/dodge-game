@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dodge_stuff")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f43ed3c8ce5c1b91039676ebe1bc28dee1bfbd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("dodge_stuff")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dodge_stuff")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

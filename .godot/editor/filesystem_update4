@@ -1,2 +1,8 @@
 res://scenes/Main.tscn
 res://scenes/Main.cs
+res://scenes/GameScene/playScene.tscn
+res://scenes/GameScene/PlayScene.cs
+res://scenes/Player/playerNode.tscn
+res://scenes/Player/PlayerNode.cs
+res://scenes/Enemy/enemyNode.tscn
+res://scenes/Enemy/EnemyNode.cs
